@@ -1,0 +1,28 @@
+
+/* Homepage full-screen background fix based on lemnichain-v1 */
+
+.homepage img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+body.lemni-homepage h1:first-of-type {
+    display: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+/* Hide homepage H1 based on multiple matching conditions */
+.md-content__inner > h1:first-of-type,
+body[data-md-path="index"] .md-content__inner > h1:first-of-type,
+body.lemni-homepage .md-content__inner > h1:first-of-type,
+html.lemni-homepage .md-content__inner > h1:first-of-type,
+html[data-md-page="index.md"] .md-content__inner > h1:first-of-type {
+    display: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+

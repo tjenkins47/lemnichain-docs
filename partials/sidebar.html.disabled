@@ -1,0 +1,7 @@
+<!-- overrides/partials/sidebar.html -->
+<!-- Empty sidebar override -->
+<div class="md-sidebar md-sidebar--primary" style="display: none !important;"></div>
+<div class="md-sidebar md-sidebar--secondary" style="display: none !important;"></div>
+<div style="background: red; height: 60px; font-weight: bold;">
+  SIDEBAR OVERRIDE TEST ACTIVE
+</div>

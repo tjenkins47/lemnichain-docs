@@ -1,0 +1,4 @@
+<!-- Hide left nav content -->
+<!-- overrides/partials/navigation.html -->
+<!-- This disables all nav items but keeps layout safe -->
+<nav class="md-nav" style="display: none;"></nav>

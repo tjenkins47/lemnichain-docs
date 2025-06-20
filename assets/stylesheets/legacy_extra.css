@@ -1,0 +1,32 @@
+/* === HOMEPAGE FULL IMAGE === */
+.homepage {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* === REMOVE TOP PADDING ABOVE IMAGE === */
+.md-main,
+.md-content,
+.md-content__inner {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+/* === HIDE HOMEPAGE <h1> IN ALL DETECTION MODES === */
+.md-content__inner > h1:first-of-type,
+body[data-md-path="index"] .md-content__inner > h1:first-of-type,
+body.lemni-homepage .md-content__inner > h1:first-of-type,
+html.lemni-homepage .md-content__inner > h1:first-of-type,
+html[data-md-page="index.md"] .md-content__inner > h1:first-of-type {
+    display: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.md-header__button[data-md-toggle="drawer"] {
+    border: 2px solid red;
+    background: yellow;
+}
