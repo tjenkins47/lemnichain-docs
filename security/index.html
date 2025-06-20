@@ -81,7 +81,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#security-audits" class="md-skip">
+        <a href="#security-assessment-audits" class="md-skip">
           Skip to content
         </a>
       
@@ -435,6 +435,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Security Audits
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -444,6 +455,46 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#file-system-security" class="md-nav__link">
+    File System Security
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cryptographic-strength" class="md-nav__link">
+    Cryptographic Strength
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#network-defense" class="md-nav__link">
+    Network Defense
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -497,6 +548,35 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#file-system-security" class="md-nav__link">
+    File System Security
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cryptographic-strength" class="md-nav__link">
+    Cryptographic Strength
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#network-defense" class="md-nav__link">
+    Network Defense
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -510,8 +590,23 @@
                   
 
 
-<h1 id="security-audits">Security Audits</h1>
-<p>Summary of internal and external audit findings.</p>
+<h1 id="security-assessment-audits">Security Assessment &amp; Audits</h1>
+<h2 id="file-system-security">File System Security</h2>
+<ul>
+<li>Permissions: <code>0o600</code> on wallets, keys</li>
+<li>Atomic writes, cleanup, audit logging</li>
+</ul>
+<h2 id="cryptographic-strength">Cryptographic Strength</h2>
+<ul>
+<li>AES-256-GCM encryption</li>
+<li>Quantum-resistant LAIP signature model</li>
+</ul>
+<h2 id="network-defense">Network Defense</h2>
+<ul>
+<li>CURVE-encrypted P2P</li>
+<li>Rate-limited Flask endpoints</li>
+</ul>
+<p>Source: <code>LemniChain Security Analysis_ File Permissions, Cryptographic Security, and Attack Vectors.pdf</code></p>
 
 
 
