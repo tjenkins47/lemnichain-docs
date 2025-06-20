@@ -8,22 +8,28 @@
       
       
       
+        <link rel="canonical" href="https://tjenkins47.github.io/lemnichain-docs/nodes/">
       
       
+        <link rel="prev" href="../wallet/">
       
-      <link rel="icon" href="/lemnichain-docs/None">
+      
+        <link rel="next" href="../governance/">
+      
+      
+      <link rel="icon" href="../None">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.2.8">
     
     
       
-        <title>LemniChain Documentation</title>
+        <title>Node Operation - LemniChain Documentation</title>
       
     
     
-      <link rel="stylesheet" href="/lemnichain-docs/assets/stylesheets/main.046329b4.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.046329b4.min.css">
       
         
-        <link rel="stylesheet" href="/lemnichain-docs/assets/stylesheets/palette.85d0ee34.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.85d0ee34.min.css">
       
       
 
@@ -42,11 +48,11 @@
       
     
     
-      <link rel="stylesheet" href="/lemnichain-docs/assets/stylesheets/centered.css">
+      <link rel="stylesheet" href="../assets/stylesheets/centered.css">
     
-      <link rel="stylesheet" href="/lemnichain-docs/assets/stylesheets/extra.css">
+      <link rel="stylesheet" href="../assets/stylesheets/extra.css">
     
-    <script>__md_scope=new URL("/lemnichain-docs/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,6 +80,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#node-operation" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -86,7 +97,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/lemnichain-docs/." title="LemniChain Documentation" class="md-header__button md-logo" aria-label="LemniChain Documentation" data-md-component="logo">
+    <a href=".." title="LemniChain Documentation" class="md-header__button md-logo" aria-label="LemniChain Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -106,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Node Operation
             
           </span>
         </div>
@@ -204,7 +215,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/lemnichain-docs/." title="LemniChain Documentation" class="md-nav__button md-logo" aria-label="LemniChain Documentation" data-md-component="logo">
+    <a href=".." title="LemniChain Documentation" class="md-nav__button md-logo" aria-label="LemniChain Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -221,7 +232,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lemnichain-docs/." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -240,7 +251,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lemnichain-docs/intro/" class="md-nav__link">
+      <a href="../intro/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -259,7 +270,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lemnichain-docs/wallet/" class="md-nav__link">
+      <a href="../wallet/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -276,17 +287,19 @@
       
   
   
+    
+  
   
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
@@ -299,7 +312,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Build
@@ -310,9 +323,18 @@
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="/lemnichain-docs/nodes/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -321,6 +343,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -332,7 +355,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lemnichain-docs/governance/" class="md-nav__link">
+      <a href="../governance/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -393,7 +416,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lemnichain-docs/quantum/" class="md-nav__link">
+      <a href="../quantum/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -413,7 +436,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lemnichain-docs/security/" class="md-nav__link">
+      <a href="../security/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -433,7 +456,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lemnichain-docs/api/" class="md-nav__link">
+      <a href="../api/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -471,6 +494,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -482,8 +507,17 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+<h1 id="node-operation">Node Operation</h1>
+<p>How to set up and run a LemniChain node.</p>
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -515,10 +549,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "/lemnichain-docs/", "features": [], "search": "/lemnichain-docs/assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="/lemnichain-docs/assets/javascripts/bundle.dff1b7c8.min.js"></script>
+      <script src="../assets/javascripts/bundle.dff1b7c8.min.js"></script>
       
     
   </body>
